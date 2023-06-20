@@ -4,9 +4,9 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { AlertPageRoutingModule } from './alert-routing.module';
+import { ButtonPageRoutingModule } from './button-routing.module';
 
-import { AlertPage } from './alert.page';
+import { ButtonPage } from './button.page';
 import { ComponentsModule } from '../../components/components.module';
 
 @NgModule({
@@ -14,9 +14,9 @@ import { ComponentsModule } from '../../components/components.module';
     CommonModule,
     FormsModule,
     IonicModule,
-    AlertPageRoutingModule,
+    ButtonPageRoutingModule,
     ComponentsModule
   ],
-  declarations: [AlertPage]
+  declarations: [ButtonPage]
 })
-export class AlertPageModule {}
+export class ButtonPageModule {}
